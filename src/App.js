@@ -1,18 +1,15 @@
 import React from 'react';
-
+import Row from './Row';
+import requests from './requests';
 function App() {
   return (
     <div style={{ textAlign: 'center' }}>
-      <header>
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
-          Learn React
-        </a>
-      </header>
+      <h1>hey hashin</h1>
+      <Row title='NETFLIX ORIGINALS' fetchUrl={requests.fetchNetflixOriginals} />
+      <Row title="Trending Now" fetchUrl={requests.fetchTrending}/>
     </div>
   );
+ 
 }
 
 export default App;

@@ -3,8 +3,8 @@ import React, { useEffect, useState } from 'react'
 import  axios  from './axios';
 import "./Row.css"
 const base_url = "https://image.tmdb.org/t/p/original/";
-function Row(props) {
-  const { title, fetchUrl,isLargeRow } = props;
+function Row({ title, fetchUrl,isLargeRow }) {
+  // const { title, fetchUrl,isLargeRow } = props;
   const [movies, setMovies] = useState([]);
   useEffect(() => {
     async function fetchData() {

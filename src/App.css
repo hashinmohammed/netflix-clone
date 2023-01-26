@@ -1,6 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 *{
     margin: 0;
+    font-family: 'Roboto', sans-serif;
+
 }
 /* body{
     background-color: #111;
 } */
+.app{
+    background-color: #111;
+}
+/* Hide the default scrollbar */
+::-webkit-scrollbar {
+    width: 0.2em;
+    background-color: #F5F5F5;
+  }
+  
+  /* Style the thumb (the part that you drag) */
+  ::-webkit-scrollbar-thumb {
+    background-color: #000000;
+  }/* Hide the default scrollbar */
+
+
+/* Style the thumb hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+  
+  /* Style the thumb hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+  }
+  

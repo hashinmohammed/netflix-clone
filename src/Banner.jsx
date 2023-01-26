@@ -1,16 +1,16 @@
 import { useEffect,useState } from "react";
 import axios from "./axios";
 import './Banner.css'
-import requests from "./requests";
+// import requests from "./requests";
 
 function Banner({ fetchUrl }) {
-  const [movie, SetBanner] = useState([]);
+  const [movie,SetBanner] = useState([]);
   useEffect(() => {
     console.log("Banner =>", fetchUrl);
     async function fetchData() {
       const request = await axios.get(fetchUrl);
       // console.log("hello");
-      console.log(request.data.results);
+      console.log("result array",request.data.results);
       SetBanner(
         request.data.results[
           Math.floor(Math.random()*request.data.results.length - 1)

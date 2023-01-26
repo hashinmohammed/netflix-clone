@@ -21,8 +21,8 @@ fetchData();
 }, [fetchUrl]);
 
 const opts = {
-height: '390',
-width: "100%",
+height: '256',
+width: "356",
 playerVars: {
 // https://developers.google.com/youtube/player_parameters
 autoplay: 1,

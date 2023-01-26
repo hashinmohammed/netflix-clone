@@ -13,23 +13,18 @@
 /* Hide the default scrollbar */
 ::-webkit-scrollbar {
     width: 0.2em;
-    background-color: #F5F5F5;
+    background-color: #2c2a2a;
   }
   
   /* Style the thumb (the part that you drag) */
   ::-webkit-scrollbar-thumb {
-    background-color: #000000;
+    background-color: #d81010;
   }/* Hide the default scrollbar */
 
 
 /* Style the thumb hover */
 ::-webkit-scrollbar-thumb:hover {
-  background-color: #555;
+  background-color: rgb(184, 10, 10);
 }
 
-  
-  /* Style the thumb hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background-color: #555;
-  }
   
